@@ -13,10 +13,7 @@ public class RegistrationApplication {
 	
 	public static void main(String[] args) {
 		
-		
-		//RegistrationRepository registrationRepository;
-		
-		System.out.println("version: " + SpringVersion.getVersion());
+	    System.out.println("version: " + SpringVersion.getVersion());
 		SpringApplication.run(RegistrationApplication.class, args);
 	}
 	
